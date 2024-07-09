@@ -1,0 +1,1262 @@
+[
+  {
+    "country": "Afghanistan",
+    "callingCode": 93,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Albania",
+    "callingCode": 355,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Algeria",
+    "callingCode": 213,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Other",
+    "callingCode": 0,
+    "marketing": 0.0604,
+    "utility": 0.0338,
+    "authentication": 0.0304,
+    "authentication-international": 0,
+    "service": 0.0145
+  },
+  {
+    "country": "Angola",
+    "callingCode": 244,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Argentina",
+    "callingCode": 54,
+    "marketing": 0.0618,
+    "utility": 0.0408,
+    "authentication": 0.0367,
+    "authentication-international": 0,
+    "service": 0.0316
+  },
+  {
+    "country": "Armenia",
+    "callingCode": 374,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Australia",
+    "callingCode": 61,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Austria",
+    "callingCode": 43,
+    "marketing": 0.0592,
+    "utility": 0.042,
+    "authentication": 0.0378,
+    "authentication-international": 0,
+    "service": 0.0397
+  },
+  {
+    "country": "Azerbaijan",
+    "callingCode": 994,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Bahrain",
+    "callingCode": 973,
+    "marketing": 0.0341,
+    "utility": 0.0198,
+    "authentication": 0.0178,
+    "authentication-international": 0,
+    "service": 0.0218
+  },
+  {
+    "country": "Bangladesh",
+    "callingCode": 880,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Belarus",
+    "callingCode": 375,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Belgium",
+    "callingCode": 32,
+    "marketing": 0.0592,
+    "utility": 0.042,
+    "authentication": 0.0378,
+    "authentication-international": 0,
+    "service": 0.0397
+  },
+  {
+    "country": "Benin",
+    "callingCode": 229,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Bolivia",
+    "callingCode": 591,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Botswana",
+    "callingCode": 267,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Brazil",
+    "callingCode": 55,
+    "marketing": 0.0625,
+    "utility": 0.035,
+    "authentication": 0.0315,
+    "authentication-international": 0,
+    "service": 0.03
+  },
+  {
+    "country": "Bulgaria",
+    "callingCode": 359,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Burkina Faso",
+    "callingCode": 226,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Burundi",
+    "callingCode": 257,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Cambodia",
+    "callingCode": 855,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Cameroon",
+    "callingCode": 237,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Canada",
+    "callingCode": 1,
+    "marketing": 0.025,
+    "utility": 0.015,
+    "authentication": 0.0135,
+    "authentication-international": 0,
+    "service": 0.0088
+  },
+  {
+    "country": "Chad",
+    "callingCode": 235,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Chile",
+    "callingCode": 56,
+    "marketing": 0.0889,
+    "utility": 0.0586,
+    "authentication": 0.0527,
+    "authentication-international": 0,
+    "service": 0.0454
+  },
+  {
+    "country": "China",
+    "callingCode": 86,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Colombia",
+    "callingCode": 57,
+    "marketing": 0.0125,
+    "utility": 0.0085,
+    "authentication": 0.0077,
+    "authentication-international": 0,
+    "service": 0.006
+  },
+  {
+    "country": "Costa Rica",
+    "callingCode": 506,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Croatia",
+    "callingCode": 385,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Czech Republic",
+    "callingCode": 420,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Denmark",
+    "callingCode": 45,
+    "marketing": 0.0592,
+    "utility": 0.042,
+    "authentication": 0.0378,
+    "authentication-international": 0,
+    "service": 0.0397
+  },
+  {
+    "country": "Dominican Republic",
+    "callingCode": "1 (809, 829, 849)",
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Ecuador",
+    "callingCode": 593,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Egypt",
+    "callingCode": 20,
+    "marketing": 0.1073,
+    "utility": 0.0687,
+    "authentication": 0.0618,
+    "authentication-international": 0,
+    "service": 0.0644
+  },
+  {
+    "country": "El Salvador",
+    "callingCode": 503,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Eritrea",
+    "callingCode": 291,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Ethiopia",
+    "callingCode": 251,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Finland",
+    "callingCode": 358,
+    "marketing": 0.0592,
+    "utility": 0.042,
+    "authentication": 0.0378,
+    "authentication-international": 0,
+    "service": 0.0397
+  },
+  {
+    "country": "France",
+    "callingCode": 33,
+    "marketing": 0.1432,
+    "utility": 0.0768,
+    "authentication": 0.0691,
+    "authentication-international": 0,
+    "service": 0.0859
+  },
+  {
+    "country": "Gabon",
+    "callingCode": 241,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Gambia",
+    "callingCode": 220,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Georgia",
+    "callingCode": 995,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Germany",
+    "callingCode": 49,
+    "marketing": 0.1365,
+    "utility": 0.0853,
+    "authentication": 0.0768,
+    "authentication-international": 0,
+    "service": 0.0819
+  },
+  {
+    "country": "Ghana",
+    "callingCode": 233,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Greece",
+    "callingCode": 30,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Guatemala",
+    "callingCode": 502,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Guinea-Bissau",
+    "callingCode": 245,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Haiti",
+    "callingCode": 509,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Honduras",
+    "callingCode": 504,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Hong Kong",
+    "callingCode": 852,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Hungary",
+    "callingCode": 36,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "India",
+    "callingCode": 91,
+    "marketing": 0.0099,
+    "utility": 0.0042,
+    "authentication": 0.0014,
+    "authentication-international": 0.028,
+    "service": 0.004
+  },
+  {
+    "country": "Indonesia",
+    "callingCode": 62,
+    "marketing": 0.0411,
+    "utility": 0.02,
+    "authentication": 0.03,
+    "authentication-international": 0.136,
+    "service": 0.019
+  },
+  {
+    "country": "Iraq",
+    "callingCode": 964,
+    "marketing": 0.0341,
+    "utility": 0.0198,
+    "authentication": 0.0178,
+    "authentication-international": 0,
+    "service": 0.0218
+  },
+  {
+    "country": "Ireland",
+    "callingCode": 353,
+    "marketing": 0.0592,
+    "utility": 0.042,
+    "authentication": 0.0378,
+    "authentication-international": 0,
+    "service": 0.0397
+  },
+  {
+    "country": "Israel",
+    "callingCode": 972,
+    "marketing": 0.0353,
+    "utility": 0.0188,
+    "authentication": 0.0169,
+    "authentication-international": 0,
+    "service": 0.018
+  },
+  {
+    "country": "Italy",
+    "callingCode": 39,
+    "marketing": 0.0691,
+    "utility": 0.042,
+    "authentication": 0.0378,
+    "authentication-international": 0,
+    "service": 0.0386
+  },
+  {
+    "country": "Ivory Coast",
+    "callingCode": 225,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Jamaica",
+    "callingCode": "1 (658, 876)",
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Japan",
+    "callingCode": 81,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Jordan",
+    "callingCode": 962,
+    "marketing": 0.0341,
+    "utility": 0.0198,
+    "authentication": 0.0178,
+    "authentication-international": 0,
+    "service": 0.0218
+  },
+  {
+    "country": "Kenya",
+    "callingCode": 254,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Kuwait",
+    "callingCode": 965,
+    "marketing": 0.0341,
+    "utility": 0.0198,
+    "authentication": 0.0178,
+    "authentication-international": 0,
+    "service": 0.0218
+  },
+  {
+    "country": "Laos",
+    "callingCode": 856,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Latvia",
+    "callingCode": 371,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Lebanon",
+    "callingCode": 961,
+    "marketing": 0.0341,
+    "utility": 0.0198,
+    "authentication": 0.0178,
+    "authentication-international": 0,
+    "service": 0.0218
+  },
+  {
+    "country": "Lesotho",
+    "callingCode": 266,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Liberia",
+    "callingCode": 231,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Libya",
+    "callingCode": 218,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Lithuania",
+    "callingCode": 370,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Madagascar",
+    "callingCode": 261,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Malawi",
+    "callingCode": 265,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Malaysia",
+    "callingCode": 60,
+    "marketing": 0.086,
+    "utility": 0.02,
+    "authentication": 0.018,
+    "authentication-international": 0,
+    "service": 0.022
+  },
+  {
+    "country": "Mali",
+    "callingCode": 223,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Mauritania",
+    "callingCode": 222,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Mexico",
+    "callingCode": 52,
+    "marketing": 0.0436,
+    "utility": 0.0266,
+    "authentication": 0.0239,
+    "authentication-international": 0,
+    "service": 0.0105
+  },
+  {
+    "country": "Moldova",
+    "callingCode": 373,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Mongolia",
+    "callingCode": 976,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Morocco",
+    "callingCode": 212,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Mozambique",
+    "callingCode": 258,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Namibia",
+    "callingCode": 264,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Nepal",
+    "callingCode": 977,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Netherlands",
+    "callingCode": 31,
+    "marketing": 0.1597,
+    "utility": 0.08,
+    "authentication": 0.072,
+    "authentication-international": 0,
+    "service": 0.0891
+  },
+  {
+    "country": "New Zealand",
+    "callingCode": 64,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Nicaragua",
+    "callingCode": 505,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Niger",
+    "callingCode": 227,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Nigeria",
+    "callingCode": 234,
+    "marketing": 0.0516,
+    "utility": 0.0319,
+    "authentication": 0.0287,
+    "authentication-international": 0,
+    "service": 0.031
+  },
+  {
+    "country": "North Macedonia",
+    "callingCode": 389,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Norway",
+    "callingCode": 47,
+    "marketing": 0.0592,
+    "utility": 0.042,
+    "authentication": 0.0378,
+    "authentication-international": 0,
+    "service": 0.0397
+  },
+  {
+    "country": "Oman",
+    "callingCode": 968,
+    "marketing": 0.0341,
+    "utility": 0.0198,
+    "authentication": 0.0178,
+    "authentication-international": 0,
+    "service": 0.0218
+  },
+  {
+    "country": "Pakistan",
+    "callingCode": 92,
+    "marketing": 0.0473,
+    "utility": 0.0253,
+    "authentication": 0.0228,
+    "authentication-international": 0,
+    "service": 0.0142
+  },
+  {
+    "country": "Panama",
+    "callingCode": 507,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Papua New Guinea",
+    "callingCode": 675,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Paraguay",
+    "callingCode": 595,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Peru",
+    "callingCode": 51,
+    "marketing": 0.0703,
+    "utility": 0.0419,
+    "authentication": 0.0377,
+    "authentication-international": 0,
+    "service": 0.0179
+  },
+  {
+    "country": "Philippines",
+    "callingCode": 63,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Poland",
+    "callingCode": 48,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Portugal",
+    "callingCode": 351,
+    "marketing": 0.0592,
+    "utility": 0.042,
+    "authentication": 0.0378,
+    "authentication-international": 0,
+    "service": 0.0397
+  },
+  {
+    "country": "Puerto Rico",
+    "callingCode": "1 (787, 939)",
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Qatar",
+    "callingCode": 974,
+    "marketing": 0.0341,
+    "utility": 0.0198,
+    "authentication": 0.0178,
+    "authentication-international": 0,
+    "service": 0.0218
+  },
+  {
+    "country": "Republic of the Congo (Brazzaville)",
+    "callingCode": 242,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Romania",
+    "callingCode": 40,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Russia",
+    "callingCode": 7,
+    "marketing": 0.0802,
+    "utility": 0.0477,
+    "authentication": 0.0429,
+    "authentication-international": 0,
+    "service": 0.0398
+  },
+  {
+    "country": "Rwanda",
+    "callingCode": 250,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Saudi Arabia",
+    "callingCode": 966,
+    "marketing": 0.0406,
+    "utility": 0.0252,
+    "authentication": 0.0226,
+    "authentication-international": 0,
+    "service": 0.0195
+  },
+  {
+    "country": "Senegal",
+    "callingCode": 221,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Serbia",
+    "callingCode": 381,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Sierra Leone",
+    "callingCode": 232,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Singapore",
+    "callingCode": 65,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Slovakia",
+    "callingCode": 421,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Slovenia",
+    "callingCode": 386,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "Somalia",
+    "callingCode": 252,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "South Africa",
+    "callingCode": 27,
+    "marketing": 0.0379,
+    "utility": 0.02,
+    "authentication": 0.018,
+    "authentication-international": 0,
+    "service": 0.0168
+  },
+  {
+    "country": "South Sudan",
+    "callingCode": 211,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Spain",
+    "callingCode": 34,
+    "marketing": 0.0615,
+    "utility": 0.038,
+    "authentication": 0.0342,
+    "authentication-international": 0,
+    "service": 0.0369
+  },
+  {
+    "country": "Sri Lanka",
+    "callingCode": 94,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Sudan",
+    "callingCode": 249,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Swaziland",
+    "callingCode": 268,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Sweden",
+    "callingCode": 46,
+    "marketing": 0.0592,
+    "utility": 0.042,
+    "authentication": 0.0378,
+    "authentication-international": 0,
+    "service": 0.0397
+  },
+  {
+    "country": "Switzerland",
+    "callingCode": 41,
+    "marketing": 0.0592,
+    "utility": 0.042,
+    "authentication": 0.0378,
+    "authentication-international": 0,
+    "service": 0.0397
+  },
+  {
+    "country": "Taiwan",
+    "callingCode": 886,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Tajikistan",
+    "callingCode": 992,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Tanzania",
+    "callingCode": 255,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Thailand",
+    "callingCode": 66,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Togo",
+    "callingCode": 228,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Tunisia",
+    "callingCode": 216,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Turkey",
+    "callingCode": 90,
+    "marketing": 0.0109,
+    "utility": 0.0093,
+    "authentication": 0.0083,
+    "authentication-international": 0,
+    "service": 0.003
+  },
+  {
+    "country": "Turkmenistan",
+    "callingCode": 993,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Uganda",
+    "callingCode": 256,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  },
+  {
+    "country": "Ukraine",
+    "callingCode": 380,
+    "marketing": 0.086,
+    "utility": 0.0619,
+    "authentication": 0.0557,
+    "authentication-international": 0,
+    "service": 0.025
+  },
+  {
+    "country": "United Arab Emirates",
+    "callingCode": 971,
+    "marketing": 0.034,
+    "utility": 0.0198,
+    "authentication": 0.0178,
+    "authentication-international": 0,
+    "service": 0.019
+  },
+  {
+    "country": "United Kingdom",
+    "callingCode": 44,
+    "marketing": 0.0705,
+    "utility": 0.0398,
+    "authentication": 0.0358,
+    "authentication-international": 0,
+    "service": 0.0388
+  },
+  {
+    "country": "United States",
+    "callingCode": 1,
+    "marketing": 0.025,
+    "utility": 0.015,
+    "authentication": 0.0135,
+    "authentication-international": 0,
+    "service": 0.0088
+  },
+  {
+    "country": "Uruguay",
+    "callingCode": 598,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Uzbekistan",
+    "callingCode": 998,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Venezuela",
+    "callingCode": 58,
+    "marketing": 0.074,
+    "utility": 0.0494,
+    "authentication": 0.0445,
+    "authentication-international": 0,
+    "service": 0.0423
+  },
+  {
+    "country": "Vietnam",
+    "callingCode": 84,
+    "marketing": 0.0732,
+    "utility": 0.0472,
+    "authentication": 0.0425,
+    "authentication-international": 0,
+    "service": 0.0224
+  },
+  {
+    "country": "Yemen",
+    "callingCode": 967,
+    "marketing": 0.0341,
+    "utility": 0.0198,
+    "authentication": 0.0178,
+    "authentication-international": 0,
+    "service": 0.0218
+  },
+  {
+    "country": "Zambia",
+    "callingCode": 260,
+    "marketing": 0.0225,
+    "utility": 0.016,
+    "authentication": 0.0144,
+    "authentication-international": 0,
+    "service": 0.0363
+  }
+]

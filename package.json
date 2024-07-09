@@ -1,0 +1,39 @@
+{
+  "name": "@adlanarifzr/whatsapp-sdk",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-plugin-dts": "^0.2.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "libphonenumber-js": "^1.11.4"
+  },
+  "files": ["dist/**/*"],
+  "scripts": {
+    "prepublish": "rm -rf ./dist && bun run build.ts",
+    "build": "bun run build.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adlanarifzr/whatsapp-sdk.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "cloud",
+    "api",
+    "sdk",
+    "callback"
+  ],
+  "author": "Adlan Arif Bin Zakaria",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/adlanarifzr/whatsapp-sdk/issues"
+  },
+  "homepage": "https://github.com/adlanarifzr/whatsapp-sdk#readme",
+  "main": "dist/index.js"
+}
