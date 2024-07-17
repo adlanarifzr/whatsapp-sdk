@@ -355,14 +355,14 @@ export default class WhatsappSdk {
 	 * @param template Template object.
 	 * @returns Object of axios response.
 	 */
-	sendTemplateMessage = async (to: string, template: TemplateObject) => {
+	sendTemplateMessage = async (to: string, template: TemplateObject, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'template',
 			template,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
@@ -372,14 +372,14 @@ export default class WhatsappSdk {
 	 * @param template Text object.
 	 * @returns Object of axios response.
 	 */
-	sendTextMessage = async (to: string, text: TextObject) => {
+	sendTextMessage = async (to: string, text: TextObject, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'text',
 			text,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
@@ -389,14 +389,14 @@ export default class WhatsappSdk {
 	 * @param template Video object.
 	 * @returns Object of axios response.
 	 */
-	sendVideoMessage = async (to: string, video: MediaObject) => {
+	sendVideoMessage = async (to: string, video: MediaObject, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'video',
 			video,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
@@ -406,14 +406,14 @@ export default class WhatsappSdk {
 	 * @param template Image object.
 	 * @returns Object of axios response.
 	 */
-	sendImageMessage = async (to: string, image: MediaObject) => {
+	sendImageMessage = async (to: string, image: MediaObject, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'image',
 			image,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
@@ -423,14 +423,14 @@ export default class WhatsappSdk {
 	 * @param template Audio object.
 	 * @returns Object of axios response.
 	 */
-	sendAudioMessage = async (to: string, audio: MediaObject) => {
+	sendAudioMessage = async (to: string, audio: MediaObject, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'audio',
 			audio,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
@@ -440,14 +440,14 @@ export default class WhatsappSdk {
 	 * @param template Document object.
 	 * @returns Object of axios response.
 	 */
-	sendDocumentMessage = async (to: string, document: MediaObject) => {
+	sendDocumentMessage = async (to: string, document: MediaObject, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'document',
 			document,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
@@ -457,14 +457,14 @@ export default class WhatsappSdk {
 	 * @param template Contacts object.
 	 * @returns Object of axios response.
 	 */
-	sendContactsMessage = async (to: string, contacts: Array<ContactObject>) => {
+	sendContactsMessage = async (to: string, contacts: Array<ContactObject>, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'contacts',
 			contacts,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
@@ -474,14 +474,14 @@ export default class WhatsappSdk {
 	 * @param template Interactive object.
 	 * @returns Object of axios response.
 	 */
-	sendInteractiveMessage = async (to: string, interactive: InteractiveObject) => {
+	sendInteractiveMessage = async (to: string, interactive: InteractiveObject, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'interactive',
 			interactive,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
@@ -491,14 +491,14 @@ export default class WhatsappSdk {
 	 * @param template Location object.
 	 * @returns Object of axios response.
 	 */
-	sendLocationMessage = async (to: string, location: LocationObject) => {
+	sendLocationMessage = async (to: string, location: LocationObject, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'location',
 			location,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
@@ -508,14 +508,14 @@ export default class WhatsappSdk {
 	 * @param template Reaction object.
 	 * @returns Object of axios response.
 	 */
-	sendReactionMessage = async (to: string, reaction: ReactionObject) => {
+	sendReactionMessage = async (to: string, reaction: ReactionObject, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'reaction',
 			reaction,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
@@ -525,14 +525,14 @@ export default class WhatsappSdk {
 	 * @param template Sticker object.
 	 * @returns Object of axios response.
 	 */
-	sendStickerMessage = async (to: string, sticker: MediaObject) => {
+	sendStickerMessage = async (to: string, sticker: MediaObject, options?: MessageRequestBody) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
 			type: 'sticker',
 			sticker,
 		};
-		return this.sendMessage(body);
+		return this.sendMessage({ ...(options ?? {}), ...body });
 	};
 
 	/**
