@@ -353,6 +353,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Template object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendTemplateMessage = async (to: string, template: TemplateObject, options?: MessageRequestBody) => {
@@ -370,6 +371,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Text object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendTextMessage = async (to: string, text: TextObject, options?: MessageRequestBody) => {
@@ -387,6 +389,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Video object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendVideoMessage = async (to: string, video: MediaObject, options?: MessageRequestBody) => {
@@ -404,6 +407,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Image object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendImageMessage = async (to: string, image: MediaObject, options?: MessageRequestBody) => {
@@ -421,6 +425,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Audio object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendAudioMessage = async (to: string, audio: MediaObject, options?: MessageRequestBody) => {
@@ -438,6 +443,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Document object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendDocumentMessage = async (to: string, document: MediaObject, options?: MessageRequestBody) => {
@@ -455,6 +461,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Contacts object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendContactsMessage = async (to: string, contacts: Array<ContactObject>, options?: MessageRequestBody) => {
@@ -472,6 +479,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Interactive object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendInteractiveMessage = async (to: string, interactive: InteractiveObject, options?: MessageRequestBody) => {
@@ -489,6 +497,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Location object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendLocationMessage = async (to: string, location: LocationObject, options?: MessageRequestBody) => {
@@ -506,6 +515,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Reaction object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendReactionMessage = async (to: string, reaction: ReactionObject, options?: MessageRequestBody) => {
@@ -523,6 +533,7 @@ export default class WhatsappSdk {
 	 * 
 	 * @param to Phone number of the recipient.
 	 * @param template Sticker object.
+	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
 	sendStickerMessage = async (to: string, sticker: MediaObject, options?: MessageRequestBody) => {
