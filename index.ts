@@ -356,7 +356,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendTemplateMessage = async (to: string, template: TemplateObject, options?: MessageRequestBody) => {
+	sendTemplateMessage = async (to: string, template: TemplateObject, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
@@ -374,7 +374,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendTextMessage = async (to: string, text: TextObject, options?: MessageRequestBody) => {
+	sendTextMessage = async (to: string, text: TextObject, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
@@ -392,7 +392,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendVideoMessage = async (to: string, video: MediaObject, options?: MessageRequestBody) => {
+	sendVideoMessage = async (to: string, video: MediaObject, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
@@ -410,7 +410,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendImageMessage = async (to: string, image: MediaObject, options?: MessageRequestBody) => {
+	sendImageMessage = async (to: string, image: MediaObject, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
@@ -428,7 +428,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendAudioMessage = async (to: string, audio: MediaObject, options?: MessageRequestBody) => {
+	sendAudioMessage = async (to: string, audio: MediaObject, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
@@ -446,7 +446,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendDocumentMessage = async (to: string, document: MediaObject, options?: MessageRequestBody) => {
+	sendDocumentMessage = async (to: string, document: MediaObject, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
@@ -464,7 +464,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendContactsMessage = async (to: string, contacts: Array<ContactObject>, options?: MessageRequestBody) => {
+	sendContactsMessage = async (to: string, contacts: Array<ContactObject>, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
@@ -482,7 +482,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendInteractiveMessage = async (to: string, interactive: InteractiveObject, options?: MessageRequestBody) => {
+	sendInteractiveMessage = async (to: string, interactive: InteractiveObject, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
@@ -500,7 +500,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendLocationMessage = async (to: string, location: LocationObject, options?: MessageRequestBody) => {
+	sendLocationMessage = async (to: string, location: LocationObject, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
@@ -518,7 +518,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendReactionMessage = async (to: string, reaction: ReactionObject, options?: MessageRequestBody) => {
+	sendReactionMessage = async (to: string, reaction: ReactionObject, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
@@ -536,7 +536,7 @@ export default class WhatsappSdk {
 	 * @param options Additional options.
 	 * @returns Object of axios response.
 	 */
-	sendStickerMessage = async (to: string, sticker: MediaObject, options?: MessageRequestBody) => {
+	sendStickerMessage = async (to: string, sticker: MediaObject, options?: Partial<MessageRequestBody>) => {
 		const body: MessageRequestBody = {
 			messaging_product: 'whatsapp',
 			to,
