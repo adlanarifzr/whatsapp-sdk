@@ -3,7 +3,7 @@ import type { ContactObject, InteractiveObject, LocationObject, MediaObject, Rea
 import pricing from './pricing.json';
 import parsePhoneNumber from 'libphonenumber-js';
 
-import type { WebhookPayloadObject, WebhookValueObject, WebhookStatusObject, WebhookMessageObject, WebhookErrorObject } from './webhook.ts';
+import type { WebhookPayloadObject, WebhookValueObject, WebhookStatusObject, WebhookMessageObject, WebhookErrorObject } from './webhook.js';
 export type { WebhookPayloadObject, WebhookValueObject, WebhookStatusObject, WebhookMessageObject, WebhookErrorObject };
 
 export type WhatsappSdkConfig = {
@@ -339,9 +339,7 @@ export default class WhatsappSdk {
 			if(err instanceof AxiosError) {
 				const { error } = err.response?.data as MessageResponseError;
 				if(error.message) {
-					throw new Error(error.message, {
-						cause: error,
-					});
+					throw new Error(JSON.stringify(error));
 				}
 
 				throw new Error(err.message);
