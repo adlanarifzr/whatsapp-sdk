@@ -1,7 +1,10 @@
 import axios, { AxiosError } from 'axios';
-import type { ContactObject, InteractiveObject, LocationObject, MediaObject, ReactionObject, TemplateObject, TextObject } from './message';
+import type { ContactObject, InteractiveObject, LocationObject, MediaObject, ReactionObject, TemplateObject, TextObject } from './message.ts';
 import pricing from './pricing.json';
 import parsePhoneNumber from 'libphonenumber-js';
+
+import type { WebhookPayloadObject, WebhookValueObject, WebhookStatusObject, WebhookMessageObject, WebhookErrorObject } from './webhook.ts';
+export type { WebhookPayloadObject, WebhookValueObject, WebhookStatusObject, WebhookMessageObject, WebhookErrorObject };
 
 export type WhatsappSdkConfig = {
 	/**
