@@ -1,3 +1,5 @@
+import { TemplateLanguage } from './messageTemplate';
+
 /**
  * Documentation: {@link https://developers.facebook.com/docs/graph-api/webhooks/getting-started#event-notifications}.
  */
@@ -32,9 +34,9 @@ export type WebhookPayloadObject = {
 			value: WebhookValueObject;
 
 			/**
-			 * Notification type. Value will be messages.
+			 * Notification type.
 			 */
-			field: 'messages';
+			field: 'messages' | 'message_template_status_update' | 'message_template_components_update';
 		}>;
 	
 	}>;
@@ -106,6 +108,107 @@ export type WebhookValueObject = {
 	 * See [Statuses Object](https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks/components/#statuses-object).
 	 */
 	statuses?: Array<WebhookStatusObject>;
+
+	/**
+	 * Only applicable for message template webhook.
+	 * 
+	 * The template ID.
+	 */
+	message_template_id?: string | number;
+
+	/**
+	 * Only applicable for message template webhook.
+	 * 
+	 * The template name.
+	 */
+	message_template_name?: string;
+
+	/**
+	 * Only applicable for message template webhook.
+	 * 
+	 * The template language
+	 */
+	message_template_language?: TemplateLanguage;
+
+	/**
+	 * Only applicable for message template webhook.
+	 * 
+	 * The new template header after the change.
+	 * 
+	 * Remains empty if the user did not enter a header.
+	 */
+	message_template_title?: string;
+
+	/**
+	 * Only applicable for message template webhook.
+	 * 
+	 * The new template body after the change.
+	 * 
+	 * Remains empty if the user did not enter new body text.
+	 */
+	message_template_element?: string;
+
+	/**
+	 * Only applicable for message template webhook.
+	 * 
+	 * The new template footer after the change.
+	 * 
+	 * Remains empty if the user did not enter new footer text.
+	 */
+	message_template_footer?: string;
+
+	/**
+	 * Only applicable for message template webhook.
+	 * 
+	 * The new list of buttons on the template after the change.
+	 * 
+	 * Only URL type and Phone number type buttons are supported for this webhook.
+	 */
+	message_template_buttons?: Array<{
+		/**
+		 * **Required.**
+		 * 
+		 * Type of button.
+		 */
+		message_template_button_type: string;
+
+		/**
+		 * **Required.**
+		 * 
+		 * Button label text.
+		 * 
+		 * For type URL, if using a variable, must include the example property and a sample value.
+		 * 
+		 * 25 characters maximum.
+		 */
+		message_template_button_text: string;
+
+		/**
+		 * **Required if message_template_button_type is URL.**
+		 */
+		message_template_button_url?: string;
+
+		/**
+		 * **Required if message_template_button_type is PHONE_NUMBER.**
+		 */
+		message_template_button_phone_number?: string;
+	}>;
+
+	/**
+	 * Only applicable for message template webhook (status changed).
+	 * 
+	 * Field: message_template_status_update
+	 * 
+	 * The template ID.
+	 */
+	event?: 'REJECTED' | 'APPROVED' | 'PENDING_DELETION';
+
+	/**
+	 * Only applicable for message template webhook (status changed).
+	 * 
+	 * Field: message_template_status_update
+	 */
+	reason?: 'INCORRECT_CATEGORY' | 'NONE' | string;
 };
 
 /**

@@ -962,3 +962,244 @@ export type ParameterObject = {
 	 */
 	video?: MediaObject;
 };
+
+/**
+ * Documentation: {@link https://developers.facebook.com/docs/whatsapp/on-premises/reference/messages#parameters}.
+ */
+export type MessageRequestBody = {
+	/**
+	 * **Required when type=audio.**
+	 * 
+	 * A media object containing audio.
+	 */
+	audio?: MediaObject;
+
+	/**
+	 * **Optional.**
+	 * 
+	 * An arbitrary string, useful for tracking.
+	 * 
+	 * For example, you could pass the message template ID in this field to track your customer's journey starting from the first message you send. 
+	 * You could then track the ROI of different message template types to determine the most effective one.
+	 * 
+	 * Any app subscribed to the messages webhook field on the WhatsApp Business Account can get this string, 
+	 * as it is included in [statuses object](https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks/components#statuses-object) 
+	 * within webhook payloads.
+	 * 
+	 * Cloud API does not process this field, it just returns it as part of sent/delivered/read message webhooks.
+	 * 
+	 * Maximum 512 characters.
+	 * 
+	 * Cloud API only.
+	 */
+	biz_opaque_callback_data?: string;
+
+	/**
+	 * **Required when type=contacts.**
+	 * 
+	 * A contacts object.
+	 */
+	contacts?: Array<ContactObject>;
+
+	/**
+	 * **Required if replying to any message in the conversation.**
+	 * 
+	 * An object containing the ID of a previous message you are replying to. For example:
+	 */
+	context?: {
+		/**
+		 * **Required.**
+		 * 
+		 * The ID of the message you are replying to.
+		 */
+		message_id: string;
+	};
+
+	/**
+	 * **Required when type=document.**
+	 * 
+	 * A media object containing a document.
+	 */
+	document?: MediaObject;
+
+	/**
+	 * **Required when type=image.**
+	 * 
+	 * A media object containing a image.
+	 */
+	image?: MediaObject;
+
+	/**
+	 * **Required when type=interactive.**
+	 * 
+	 * An interactive object. The components of each interactive object generally follow a consistent pattern: header, body, footer, and action.
+	 */
+	interactive?: InteractiveObject;
+
+	/**
+	 * **Required when type=location.**
+	 * 
+	 * A location object.
+	 */
+	location?: LocationObject;
+
+	/**
+	 * **Required.**
+	 * 
+	 * Messaging service used for the request. Use "whatsapp".
+	 * 
+	 * Cloud API only.
+	 */
+	messaging_product: 'whatsapp';
+
+	/**
+	 * **Required if type=text.**
+	 * 
+	 * Allows for URL previews in text messages — See the [Sending URLs in Text Messages](https://developers.facebook.com/docs/whatsapp/api/messages/text#urls). 
+	 * This field is optional if not including a URL in your message. Values: false (default), true.
+	 * 
+	 * On-Premises API only. Cloud API users can use the same functionality with the preview_url field inside a text object.
+	 */
+	preview_url?: boolean;
+
+	/**
+	 * **Optional.**
+	 * 
+	 * Currently, you can only send messages to individuals. Set this as individual.
+	 * 
+	 * Default: individual
+	 */
+	recipient_type?: 'individual';
+
+	/**
+	 * **Optional.**
+	 * 
+	 * A message's status. You can use this field to mark a message as read. See the following guides for information:
+	 * - Cloud API: [Mark Messages as Read](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/mark-message-as-read)
+	 * - On-Premises API: [Mark Messages as Read](https://developers.facebook.com/docs/whatsapp/on-premises/guides/mark-as-read)
+	 */
+	status?: 'read';
+
+	/**
+	 * **Required when type=sticker.**
+	 * 
+	 * A media object containing a sticker.
+	 * 
+	 * Cloud API: Static and animated third-party outbound stickers are supported in addition to all types of inbound stickers. 
+	 * A static sticker needs to be 512x512 pixels and cannot exceed 100 KB. 
+	 * An animated sticker must be 512x512 pixels and cannot exceed 500 KB.
+	 * 
+	 * On-Premises API: Only static third-party outbound stickers are supported in addition to all types of inbound stickers. 
+	 * A static sticker needs to be 512x512 pixels and cannot exceed 100 KB. Animated stickers are not supported.
+	 */
+	sticker?: MediaObject;
+
+	/**
+	 * **Required when type=template.**
+	 * 
+	 * A template object.
+	 */
+	template?: TemplateObject;
+
+	/**
+	 * **Required for text messages.**
+	 * 
+	 * A text object.
+	 */
+	text?: TextObject;
+
+	/**
+	 * **Required.**
+	 * 
+	 * WhatsApp ID or phone number of the customer you want to send a message to. 
+	 * See [Phone Number Formats](https://developers.facebook.com/docs/whatsapp/cloud-api/reference/phone-numbers#phone-number-formats).
+	 * 
+	 * If needed, On-Premises API users can get this number by calling the [contacts endpoint](https://developers.facebook.com/docs/whatsapp/on-premises/reference/contacts).
+	 * 
+	 * With the Cloud API, there is no longer a way to explicitly check if a phone number has a WhatsApp ID. 
+	 * To send someone a message using the Cloud API, just send it directly to the customer's phone number —after they have [opted-in](https://developers.facebook.com/docs/whatsapp/overview/getting-opt-in). 
+	 * See [Reference, Messages](https://developers.facebook.com/docs/whatsapp/cloud-api/reference/messages#examples) for examples.
+	 */
+	to: string;
+
+	/**
+	 * **Optional.**
+	 * 
+	 * The type of message you want to send. If omitted, defaults to text.
+	 */
+	type?: 'text' | 'template' | 'video' | 'document' | 'image' | 'contacts' | 'interactive' | 'location' | 'reaction' | 'sticker' | 'audio';
+
+	/**
+	 * **Required when type=video.**
+	 * 
+	 * A media object containing video.
+	 */
+	video?: MediaObject;
+
+	/**
+	 * **Required when type=reaction.**
+	 * 
+	 * A reaction object.
+	 */
+	reaction?: ReactionObject;
+};
+
+/**
+ * Documentation: {@link https://developers.facebook.com/docs/whatsapp/cloud-api/reference/messages/#successful-response}.
+ */
+export type MessageResponseSuccess = {
+	/**
+	 * A string that represents the messaging service used for the request. 
+	 * This will always be "whatsapp".
+	 */
+	messaging_product: 'whatsapp';
+
+	/**
+	 * An array of objects containing the input phone number and the WhatsApp ID of the recipient. 
+	 * This is useful for tracking the status of the message.
+	 */
+	contacts: Array<{
+		/**
+		 * The input phone number of the recipient.
+		 */
+		input: string;
+
+		/**
+		 * The WhatsApp ID of the recipient.
+		 */
+		wa_id: string;
+	}>;
+
+	/**
+	 * An array of messages objects. 
+	 * Each object contains the message ID and the status of the message.
+	 */
+	messages: Array<{
+		/**
+		 * ID of the message.
+		 * 
+		 * Messages are identified by a unique ID (WAMID). 
+		 * You can track message status in the Webhooks through its WAMID. 
+		 * You could also mark an incoming message as read through messages endpoint. 
+		 * This WAMID can have a maximum length of up to 128 characters.
+		 */
+		id: string;
+
+		/**
+		 * Messages will have one of the following statuses which will be returned in each of the messages objects.
+		 * - "accepted" : means the message was sent to the intended recipient
+		 * - "held_for_quality_assessment": means the message send was delayed until quality can be validated and it will either be sent or dropped at this point
+		 */
+		message_status: 'accepted' | 'held_for_quality_assessment';
+	}>;
+};
+
+export type MessageResponseError = {
+	error: {
+		message: string;
+		type: 'GraphMethodException' | string;
+		code: number;
+		error_subcode: number;
+		fbtrace_id: string;
+	};
+};
