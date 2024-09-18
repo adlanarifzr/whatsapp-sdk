@@ -427,7 +427,7 @@ export default class WhatsappSdk {
 	 * @param name The name of the template.
 	 * @returns Object of axios response.
 	 */
-	deleteMessageTemplateByName = async (hsm_id: string, name: string) => {
+	deleteMessageTemplateByName = async (name: string) => {
 		return this.callMessageTemplateApi<{ success: boolean; }>({
 			method: 'DELETE',
 			params: {
