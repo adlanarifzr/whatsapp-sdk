@@ -114,7 +114,7 @@ export default class WhatsappSdk {
 	private callMessageTemplateApi = async <T>(config?: AxiosRequestConfig) => {
 		const endpoint = this.config.endpoint || 'https://graph.facebook.com';
 		const version = this.config.version || 'v20.0';
-		const url = `${endpoint}/${version}/${this.config.phone_number_id}/message_templates`;
+		const url = `${endpoint}/${version}/${this.config.business_id}/message_templates`;
 		try {
 			const response = await axios.request({
 				method: 'POST',

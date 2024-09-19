@@ -964,7 +964,7 @@ export type ParameterObject = {
 };
 
 /**
- * Documentation: {@link https://developers.facebook.com/docs/whatsapp/on-premises/reference/messages#parameters}.
+ * Documentation: {@link https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-messages#post-body}.
  */
 export type MessageRequestBody = {
 	/**
