@@ -10,11 +10,11 @@ export type TemplateComponentObject = {
 	type: 'HEADER' | 'BODY' | 'FOOTER' | 'BUTTONS';
 
 	/**
-	 * **Required.**
+	 * **Required if type HEADER.**
 	 * 
 	 * Format of the component.
 	 */
-	format: 'TEXT' | 'IMAGE' | 'VIDEO' | 'DOCUMENT' | 'LOCATION';
+	format?: 'TEXT' | 'IMAGE' | 'VIDEO' | 'DOCUMENT' | 'LOCATION';
 
 	/**
 	 * **Required if type is TEXT.**
