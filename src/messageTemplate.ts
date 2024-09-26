@@ -297,3 +297,182 @@ export type TemplateUpdateRequestBody = {
 	 */
 	components?: Array<TemplateComponentObject>;
 };
+
+/**
+ * Documentation: {@link https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates#retrieve-templates}.
+ */
+export type TemplateListRequestBody = {
+	/**
+	 * **Optional.**
+	 * 
+	 * List of [template fields](https://developers.facebook.com/docs/graph-api/reference/whats-app-business-hsm/#fields) you want returned.
+	 */
+	fields?: Array<string
+		| 'id' 
+		| 'category' 
+		| 'components' 
+		| 'correct_category' 
+		| 'cta_url_link_tracking_opted_out' 
+		| 'language' 
+		| 'library_template_name' 
+		| 'message_send_ttl_seconds' 
+		| 'name' 
+		| 'previous_category'
+		| 'quality_score'
+		| 'rejected_reason'
+		| 'status'
+		| 'sub_category'
+	>;
+
+	/**
+	 * **Optional.**
+	 * 
+	 * The maximum number of templates you want returned in each page of results.
+	 * 
+	 * Default is 25.
+	 */
+	limit?: number;
+
+	/**
+	 * **Optional.**
+	 * 
+	 * The cursor of current page, which will return next result.
+	 */
+	after?: string;
+
+	/**
+	 * **Optional.**
+	 * 
+	 * The cursor of current page, which will return previous result.
+	 */
+	before?: string;
+};
+
+/**
+ * Documentation: {@link https://developers.facebook.com/docs/graph-api/reference/whats-app-business-hsm/#fields}.
+ */
+export type TemplateObject = {
+	/**
+	 * Template ID.
+	 */
+	id: string;
+
+	/**
+	 * The category type of the message template.
+	 */
+	category?: 'AUTHENTICATION' | 'MARKETING' | 'UTILITY';
+
+	/**
+	 * An array of JSON objects describing the message template components.
+	 */
+	components?: Array<TemplateComponentObject>;
+
+	/**
+	 * The correct category for the template.
+	 */
+	correct_category?: 'AUTHENTICATION' | 'MARKETING' | 'UTILITY';
+
+	/**
+	 * Optional boolean field for opting out/in of link tracking at template level
+	 */
+	cta_url_link_tracking_opted_out?: boolean;
+
+	/**
+	 * The language (and locale) of the element translation
+	 */
+	language?: TemplateLanguage;
+
+	/**
+	 * Template Library name that this HSM is clone from
+	 */
+	library_template_name?: string;
+
+	/**
+	 * Template message delivery retry time-to-live (TTL) override value. 
+	 * If unable to deliver the template message to the WhatsApp user, we will periodically retry for this period of time. 
+	 * If we are unable to deliver the message for this period of time, the message will be dropped. 
+	 * 
+	 *  Only allowed for authentication message templates. See [Time-To-Live](https://developers.facebook.com/docs/whatsapp/business-management-api/authentication-templates/#time-to-live). 
+	 */
+	message_send_ttl_seconds?: number;
+
+	/**
+	 * The message template name
+	 */
+	name: string;
+
+	/**
+	 * Previous category of the template. See [Template Categories](https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates#categories).
+	 */
+	previous_category?: 'AUTHENTICATION' | 'MARKETING' | 'UTILITY';
+
+	/**
+	 * Quality score of the HSM
+	 */
+	quality_score?: {
+		/**
+		 * Timestamp of the quality score
+		 */
+		date?: number;
+		
+		/**
+		 * List of reasons for the score of the HSM
+		 */
+		reasons?: Array<string>;
+
+		/**
+		 * Quality score of the HSM
+		 */
+		score?: string;
+	};
+
+	/**
+	 * The reason the message template was rejected
+	 */
+	rejected_reason?: 'ABUSIVE_CONTENT' | 'INVALID_FORMAT' | 'NONE' | 'PROMOTIONAL' | 'TAG_CONTENT_MISMATCH' | 'SCAM';
+
+	/**
+	 * The status of the message template
+	 */
+	status: 'APPROVED' | 'IN_APPEAL' | 'PENDING' | 'REJECTED' | 'PENDING_DELETION' | 'DELETED' | 'DISABLED' | 'PAUSED' | 'LIMIT_EXCEEDED';
+
+	/**
+	 * Sub category of the template
+	 */
+	sub_category?: string;
+};
+
+/**
+ * Documentation: {@link https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates#example-response-2}.
+ */
+export type TemplateListResponse = {
+	/**
+	 * Array of message templates.
+	 */
+	data: Array<TemplateObject>;
+
+	/**
+	 * Information about the data pagination.
+	 */
+	paging: {
+		/**
+		 * Cursors for pagination.
+		 */
+		cursors: {
+			/**
+			 * Hash of the previous page cursor.
+			 */
+			before: string;
+
+			/**
+			 * Hash of the next page cursor.
+			 */
+			after: string;
+		};
+
+		/**
+		 * URL of the next page of data.
+		 */
+		next: string;
+	};
+};

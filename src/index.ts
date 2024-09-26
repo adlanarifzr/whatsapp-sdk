@@ -4,7 +4,7 @@ import pricing from './pricing.json';
 import parsePhoneNumber from 'libphonenumber-js';
 
 import type { WebhookPayloadObject, WebhookValueObject, WebhookStatusObject, WebhookMessageObject, WebhookErrorObject } from './webhook.js';
-import { TemplateCreateRequestBody, TemplateUpdateRequestBody, TemplateLanguage } from './messageTemplate.js';
+import { TemplateCreateRequestBody, TemplateUpdateRequestBody, TemplateLanguage, TemplateListRequestBody, TemplateListResponse } from './messageTemplate.js';
 
 export type { WebhookPayloadObject, WebhookValueObject, WebhookStatusObject, WebhookMessageObject, WebhookErrorObject };
 export { TemplateLanguage };
@@ -470,6 +470,21 @@ export default class WhatsappSdk {
 			method: 'POST',
 			url: `${endpoint}/${version}/${template_id}`,
 			data: body,
+		});
+	};
+
+	/**
+	 * **Get all message templates**
+	 * 
+	 * Documentation: {@link https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates#retrieve-templates}.
+	 * 
+	 * @param params The query parameters.
+	 * @returns Object of axios response.
+	 */
+	getMessageTemplates = async (params: TemplateListRequestBody) => {
+		return this.callMessageTemplateApi<TemplateListResponse>({
+			method: 'GET',
+			params,
 		});
 	};
 }
