@@ -223,7 +223,7 @@ export type WebhookStatusObject = {
 	/**
 	 * Information about the conversation.
 	 */
-	conversation: {
+	conversation?: {
 		/**
 		 * Represents the ID of the conversation the given status notification belongs to.
 		 */
@@ -265,7 +265,7 @@ export type WebhookStatusObject = {
 	/**
 	 * An object containing pricing information.
 	 */
-	pricing: {
+	pricing?: {
 		/**
 		 * Type of pricing model used by the business. Current supported value is CBP
 		 */
