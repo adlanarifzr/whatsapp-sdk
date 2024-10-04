@@ -331,6 +331,13 @@ export type TemplateListRequestBody = {
 	 * The cursor of current page, which will return previous result.
 	 */
 	before?: string;
+
+	/**
+	 * **Optional.**
+	 * 
+	 * Filter templates by status.
+	 */
+	status?: string | 'APPROVED' | 'IN_APPEAL' | 'PENDING' | 'REJECTED' | 'PENDING_DELETION' | 'DELETED' | 'DISABLED' | 'PAUSED' | 'LIMIT_EXCEEDED';
 };
 
 /**
