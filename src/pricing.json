@@ -6,7 +6,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Albania",
@@ -15,34 +15,34 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Algeria",
     "callingCode": 213,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Other",
-    "callingCode": "varies by country",
+    "callingCode": 0,
     "marketing": 0.0604,
     "utility": 0.0077,
     "authentication": 0.0304,
     "authentication-international": 0,
-    "service": 0.0145
+    "service": 0
   },
   {
     "country": "Angola",
     "callingCode": 244,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Argentina",
@@ -51,7 +51,7 @@
     "utility": 0.034,
     "authentication": 0.0367,
     "authentication-international": 0,
-    "service": 0.0316
+    "service": 0
   },
   {
     "country": "Armenia",
@@ -60,7 +60,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Australia",
@@ -69,7 +69,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Austria",
@@ -78,7 +78,7 @@
     "utility": 0.03,
     "authentication": 0.0378,
     "authentication-international": 0,
-    "service": 0.0397
+    "service": 0
   },
   {
     "country": "Azerbaijan",
@@ -87,7 +87,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Bahrain",
@@ -96,7 +96,7 @@
     "utility": 0.0157,
     "authentication": 0.0178,
     "authentication-international": 0,
-    "service": 0.0218
+    "service": 0
   },
   {
     "country": "Bangladesh",
@@ -105,7 +105,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Belarus",
@@ -114,7 +114,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Belgium",
@@ -123,16 +123,16 @@
     "utility": 0.03,
     "authentication": 0.0378,
     "authentication-international": 0,
-    "service": 0.0397
+    "service": 0
   },
   {
     "country": "Benin",
     "callingCode": 229,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Bolivia",
@@ -141,16 +141,16 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Botswana",
     "callingCode": 267,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Brazil",
@@ -159,7 +159,7 @@
     "utility": 0.008,
     "authentication": 0.0315,
     "authentication-international": 0,
-    "service": 0.03
+    "service": 0
   },
   {
     "country": "Bulgaria",
@@ -168,25 +168,25 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Burkina Faso",
     "callingCode": 226,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Burundi",
     "callingCode": 257,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Cambodia",
@@ -195,16 +195,16 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Cameroon",
     "callingCode": 237,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Canada",
@@ -213,16 +213,16 @@
     "utility": 0.004,
     "authentication": 0.0135,
     "authentication-international": 0,
-    "service": 0.0088
+    "service": 0
   },
   {
     "country": "Chad",
     "callingCode": 235,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Chile",
@@ -231,7 +231,7 @@
     "utility": 0.02,
     "authentication": 0.0527,
     "authentication-international": 0,
-    "service": 0.0454
+    "service": 0
   },
   {
     "country": "China",
@@ -240,7 +240,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Colombia",
@@ -249,7 +249,7 @@
     "utility": 0.0002,
     "authentication": 0.0077,
     "authentication-international": 0,
-    "service": 0.006
+    "service": 0
   },
   {
     "country": "Costa Rica",
@@ -258,7 +258,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Croatia",
@@ -267,7 +267,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Czech Republic",
@@ -276,7 +276,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Denmark",
@@ -285,7 +285,7 @@
     "utility": 0.03,
     "authentication": 0.0378,
     "authentication-international": 0,
-    "service": 0.0397
+    "service": 0
   },
   {
     "country": "Dominican Republic",
@@ -294,7 +294,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Ecuador",
@@ -303,7 +303,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Egypt",
@@ -312,7 +312,7 @@
     "utility": 0.0052,
     "authentication": 0.0618,
     "authentication-international": 0,
-    "service": 0.0644
+    "service": 0
   },
   {
     "country": "El Salvador",
@@ -321,25 +321,25 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Eritrea",
     "callingCode": 291,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Ethiopia",
     "callingCode": 251,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Finland",
@@ -348,7 +348,7 @@
     "utility": 0.03,
     "authentication": 0.0378,
     "authentication-international": 0,
-    "service": 0.0397
+    "service": 0
   },
   {
     "country": "France",
@@ -357,25 +357,25 @@
     "utility": 0.03,
     "authentication": 0.0691,
     "authentication-international": 0,
-    "service": 0.0859
+    "service": 0
   },
   {
     "country": "Gabon",
     "callingCode": 241,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Gambia",
     "callingCode": 220,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Georgia",
@@ -384,7 +384,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Germany",
@@ -393,16 +393,16 @@
     "utility": 0.055,
     "authentication": 0.0768,
     "authentication-international": 0,
-    "service": 0.0819
+    "service": 0
   },
   {
     "country": "Ghana",
     "callingCode": 233,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Greece",
@@ -411,7 +411,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Guatemala",
@@ -420,16 +420,16 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Guinea-Bissau",
     "callingCode": 245,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Haiti",
@@ -438,7 +438,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Honduras",
@@ -447,7 +447,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Hong Kong",
@@ -456,7 +456,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Hungary",
@@ -465,7 +465,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "India",
@@ -474,7 +474,7 @@
     "utility": 0.0014,
     "authentication": 0.0014,
     "authentication-international": 0.028,
-    "service": 0.004
+    "service": 0
   },
   {
     "country": "Indonesia",
@@ -483,7 +483,7 @@
     "utility": 0.02,
     "authentication": 0.03,
     "authentication-international": 0.136,
-    "service": 0.019
+    "service": 0
   },
   {
     "country": "Iraq",
@@ -492,7 +492,7 @@
     "utility": 0.0157,
     "authentication": 0.0178,
     "authentication-international": 0,
-    "service": 0.0218
+    "service": 0
   },
   {
     "country": "Ireland",
@@ -501,7 +501,7 @@
     "utility": 0.03,
     "authentication": 0.0378,
     "authentication-international": 0,
-    "service": 0.0397
+    "service": 0
   },
   {
     "country": "Israel",
@@ -510,7 +510,7 @@
     "utility": 0.0053,
     "authentication": 0.0169,
     "authentication-international": 0,
-    "service": 0.018
+    "service": 0
   },
   {
     "country": "Italy",
@@ -519,16 +519,16 @@
     "utility": 0.03,
     "authentication": 0.0378,
     "authentication-international": 0,
-    "service": 0.0386
+    "service": 0
   },
   {
     "country": "Ivory Coast",
     "callingCode": 225,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Jamaica",
@@ -537,7 +537,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Japan",
@@ -546,7 +546,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Jordan",
@@ -555,16 +555,16 @@
     "utility": 0.0157,
     "authentication": 0.0178,
     "authentication-international": 0,
-    "service": 0.0218
+    "service": 0
   },
   {
     "country": "Kenya",
     "callingCode": 254,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Kuwait",
@@ -573,7 +573,7 @@
     "utility": 0.0157,
     "authentication": 0.0178,
     "authentication-international": 0,
-    "service": 0.0218
+    "service": 0
   },
   {
     "country": "Laos",
@@ -582,7 +582,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Latvia",
@@ -591,7 +591,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Lebanon",
@@ -600,34 +600,34 @@
     "utility": 0.0157,
     "authentication": 0.0178,
     "authentication-international": 0,
-    "service": 0.0218
+    "service": 0
   },
   {
     "country": "Lesotho",
     "callingCode": 266,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Liberia",
     "callingCode": 231,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Libya",
     "callingCode": 218,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Lithuania",
@@ -636,25 +636,25 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Madagascar",
     "callingCode": 261,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Malawi",
     "callingCode": 265,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Malaysia",
@@ -663,25 +663,25 @@
     "utility": 0.014,
     "authentication": 0.018,
     "authentication-international": 0,
-    "service": 0.022
+    "service": 0
   },
   {
     "country": "Mali",
     "callingCode": 223,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Mauritania",
     "callingCode": 222,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Mexico",
@@ -690,7 +690,7 @@
     "utility": 0.01,
     "authentication": 0.0239,
     "authentication-international": 0,
-    "service": 0.0105
+    "service": 0
   },
   {
     "country": "Moldova",
@@ -699,7 +699,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Mongolia",
@@ -708,34 +708,34 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Morocco",
     "callingCode": 212,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Mozambique",
     "callingCode": 258,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Namibia",
     "callingCode": 264,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Nepal",
@@ -744,7 +744,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Netherlands",
@@ -753,7 +753,7 @@
     "utility": 0.05,
     "authentication": 0.072,
     "authentication-international": 0,
-    "service": 0.0891
+    "service": 0
   },
   {
     "country": "New Zealand",
@@ -762,7 +762,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Nicaragua",
@@ -771,16 +771,16 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Niger",
     "callingCode": 227,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Nigeria",
@@ -789,7 +789,7 @@
     "utility": 0.0067,
     "authentication": 0.0287,
     "authentication-international": 0,
-    "service": 0.031
+    "service": 0
   },
   {
     "country": "North Macedonia",
@@ -798,7 +798,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Norway",
@@ -807,7 +807,7 @@
     "utility": 0.03,
     "authentication": 0.0378,
     "authentication-international": 0,
-    "service": 0.0397
+    "service": 0
   },
   {
     "country": "Oman",
@@ -816,7 +816,7 @@
     "utility": 0.0157,
     "authentication": 0.0178,
     "authentication-international": 0,
-    "service": 0.0218
+    "service": 0
   },
   {
     "country": "Pakistan",
@@ -825,7 +825,7 @@
     "utility": 0.0054,
     "authentication": 0.0228,
     "authentication-international": 0,
-    "service": 0.0142
+    "service": 0
   },
   {
     "country": "Panama",
@@ -834,7 +834,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Papua New Guinea",
@@ -843,7 +843,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Paraguay",
@@ -852,7 +852,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Peru",
@@ -861,7 +861,7 @@
     "utility": 0.02,
     "authentication": 0.0377,
     "authentication-international": 0,
-    "service": 0.0179
+    "service": 0
   },
   {
     "country": "Philippines",
@@ -870,7 +870,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Poland",
@@ -879,7 +879,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Portugal",
@@ -888,7 +888,7 @@
     "utility": 0.03,
     "authentication": 0.0378,
     "authentication-international": 0,
-    "service": 0.0397
+    "service": 0
   },
   {
     "country": "Puerto Rico",
@@ -897,7 +897,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Qatar",
@@ -906,16 +906,16 @@
     "utility": 0.0157,
     "authentication": 0.0178,
     "authentication-international": 0,
-    "service": 0.0218
+    "service": 0
   },
   {
     "country": "Republic of the Congo (Brazzaville)",
     "callingCode": 242,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Romania",
@@ -924,7 +924,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Russia",
@@ -933,16 +933,16 @@
     "utility": 0.04,
     "authentication": 0.0429,
     "authentication-international": 0,
-    "service": 0.0398
+    "service": 0
   },
   {
     "country": "Rwanda",
     "callingCode": 250,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Saudi Arabia",
@@ -951,16 +951,16 @@
     "utility": 0.0115,
     "authentication": 0.0226,
     "authentication-international": 0,
-    "service": 0.0195
+    "service": 0
   },
   {
     "country": "Senegal",
     "callingCode": 221,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Serbia",
@@ -969,16 +969,16 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Sierra Leone",
     "callingCode": 232,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Singapore",
@@ -987,7 +987,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Slovakia",
@@ -996,7 +996,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Slovenia",
@@ -1005,16 +1005,16 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "Somalia",
     "callingCode": 252,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "South Africa",
@@ -1023,16 +1023,16 @@
     "utility": 0.0076,
     "authentication": 0.018,
     "authentication-international": 0,
-    "service": 0.0168
+    "service": 0
   },
   {
     "country": "South Sudan",
     "callingCode": 211,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Spain",
@@ -1041,7 +1041,7 @@
     "utility": 0.02,
     "authentication": 0.0342,
     "authentication-international": 0,
-    "service": 0.0369
+    "service": 0
   },
   {
     "country": "Sri Lanka",
@@ -1050,25 +1050,25 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Sudan",
     "callingCode": 249,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Swaziland",
     "callingCode": 268,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Sweden",
@@ -1077,7 +1077,7 @@
     "utility": 0.03,
     "authentication": 0.0378,
     "authentication-international": 0,
-    "service": 0.0397
+    "service": 0
   },
   {
     "country": "Switzerland",
@@ -1086,7 +1086,7 @@
     "utility": 0.03,
     "authentication": 0.0378,
     "authentication-international": 0,
-    "service": 0.0397
+    "service": 0
   },
   {
     "country": "Taiwan",
@@ -1095,7 +1095,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Tajikistan",
@@ -1104,16 +1104,16 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Tanzania",
     "callingCode": 255,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Thailand",
@@ -1122,25 +1122,25 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Togo",
     "callingCode": 228,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Tunisia",
     "callingCode": 216,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Turkey",
@@ -1149,7 +1149,7 @@
     "utility": 0.0053,
     "authentication": 0.0083,
     "authentication-international": 0,
-    "service": 0.003
+    "service": 0
   },
   {
     "country": "Turkmenistan",
@@ -1158,16 +1158,16 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Uganda",
     "callingCode": 256,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   },
   {
     "country": "Ukraine",
@@ -1176,7 +1176,7 @@
     "utility": 0.0353,
     "authentication": 0.0557,
     "authentication-international": 0,
-    "service": 0.025
+    "service": 0
   },
   {
     "country": "United Arab Emirates",
@@ -1185,7 +1185,7 @@
     "utility": 0.0157,
     "authentication": 0.0178,
     "authentication-international": 0,
-    "service": 0.019
+    "service": 0
   },
   {
     "country": "United Kingdom",
@@ -1194,7 +1194,7 @@
     "utility": 0.022,
     "authentication": 0.0358,
     "authentication-international": 0,
-    "service": 0.0388
+    "service": 0
   },
   {
     "country": "United States",
@@ -1203,7 +1203,7 @@
     "utility": 0.004,
     "authentication": 0.0135,
     "authentication-international": 0,
-    "service": 0.0088
+    "service": 0
   },
   {
     "country": "Uruguay",
@@ -1212,7 +1212,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Uzbekistan",
@@ -1221,7 +1221,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Venezuela",
@@ -1230,7 +1230,7 @@
     "utility": 0.0113,
     "authentication": 0.0445,
     "authentication-international": 0,
-    "service": 0.0423
+    "service": 0
   },
   {
     "country": "Vietnam",
@@ -1239,7 +1239,7 @@
     "utility": 0.0157,
     "authentication": 0.0425,
     "authentication-international": 0,
-    "service": 0.0224
+    "service": 0
   },
   {
     "country": "Yemen",
@@ -1248,15 +1248,15 @@
     "utility": 0.0157,
     "authentication": 0.0178,
     "authentication-international": 0,
-    "service": 0.0218
+    "service": 0
   },
   {
     "country": "Zambia",
     "callingCode": 260,
     "marketing": 0.0225,
-    "utility": 0.0061,
+    "utility": 0.004,
     "authentication": 0.0144,
     "authentication-international": 0,
-    "service": 0.0363
+    "service": 0
   }
 ]
