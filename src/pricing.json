@@ -310,8 +310,8 @@
     "callingCode": 20,
     "marketing": 0.1073,
     "utility": 0.0052,
-    "authentication": 0.0618,
-    "authentication-international": 0,
+    "authentication": 0.0052,
+    "authentication-international": 0.0833,
     "service": 0
   },
   {
@@ -661,8 +661,8 @@
     "callingCode": 60,
     "marketing": 0.086,
     "utility": 0.014,
-    "authentication": 0.018,
-    "authentication-international": 0,
+    "authentication": 0.014,
+    "authentication-international": 0.0418,
     "service": 0
   },
   {
@@ -787,8 +787,8 @@
     "callingCode": 234,
     "marketing": 0.0516,
     "utility": 0.0067,
-    "authentication": 0.0287,
-    "authentication-international": 0,
+    "authentication": 0.0067,
+    "authentication-international": 0.0998,
     "service": 0
   },
   {
@@ -823,8 +823,8 @@
     "callingCode": 92,
     "marketing": 0.0473,
     "utility": 0.0054,
-    "authentication": 0.0228,
-    "authentication-international": 0,
+    "authentication": 0.0054,
+    "authentication-international": 0.1286,
     "service": 0
   },
   {
@@ -949,8 +949,8 @@
     "callingCode": 966,
     "marketing": 0.0455,
     "utility": 0.0115,
-    "authentication": 0.0226,
-    "authentication-international": 0,
+    "authentication": 0.0115,
+    "authentication-international": 0.0598,
     "service": 0
   },
   {
@@ -1021,8 +1021,8 @@
     "callingCode": 27,
     "marketing": 0.0379,
     "utility": 0.0076,
-    "authentication": 0.018,
-    "authentication-international": 0,
+    "authentication": 0.0076,
+    "authentication-international": 0.028,
     "service": 0
   },
   {
@@ -1183,8 +1183,8 @@
     "callingCode": 971,
     "marketing": 0.0384,
     "utility": 0.0157,
-    "authentication": 0.0178,
-    "authentication-international": 0,
+    "authentication": 0.0157,
+    "authentication-international": 0.051,
     "service": 0
   },
   {

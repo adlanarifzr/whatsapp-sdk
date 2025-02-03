@@ -38,7 +38,7 @@ export type WebhookPayloadObject = {
 			 */
 			field: 'messages' | 'message_template_status_update' | 'message_template_components_update';
 		}>;
-	
+
 	}>;
 };
 
@@ -222,6 +222,9 @@ export type WebhookStatusObject = {
 
 	/**
 	 * Information about the conversation.
+	 * 
+	 * Note: For webhooks version 23.0 and newer, the entire conversation object will only be included for messages 
+	 * that are part of a free-entry point conversation
 	 */
 	conversation?: {
 		/**
@@ -259,6 +262,9 @@ export type WebhookStatusObject = {
 
 	/**
 	 * The ID for the message that the business that is subscribed to the webhooks sent to a customer
+	 * 
+	 * Note: For webhooks version 22.0 and older, id will be set to a unique ID per-message, instead of per-conversation, 
+	 * unless the webhook is for a [free entry point](https://developers.facebook.com/docs/whatsapp/pricing#free-entry-point-conversations) conversation
 	 */
 	id: string;
 
@@ -267,9 +273,21 @@ export type WebhookStatusObject = {
 	 */
 	pricing?: {
 		/**
-		 * Type of pricing model used by the business. Current supported value is CBP
+		 * @deprecated
+		 * Indicates whether the message is billable.
+		 * 
+		 * Note that the billable property will be deprecated in a future versioned release, 
+		 * so we recommend that after per-message pricing applies to you, 
+		 * you start using type to determine if a given webhook is associated with a billable message.
 		 */
-		pricing_model: 'CBP';
+		billable?: boolean;
+
+		/**
+		 * Type of pricing model used by the business.
+		 * - CBP – Conversation-based pricing
+		 * - PMP – Per-message pricing
+		 */
+		pricing_model: 'CBP' | 'PMP';
 
 		/**
 		 * Indicates the conversation category:
@@ -281,6 +299,14 @@ export type WebhookStatusObject = {
 		 * - referral_conversion – Indicates a [free entry point](https://developers.facebook.com/docs/whatsapp/pricing#free-entry-point-conversations) conversation.
 		 */
 		category: 'marketing' | 'utility' | 'authentication' | 'authentication-international' | 'service' | 'referral_conversion';
+
+		/**
+		 * The type property can have the following possible values: 
+		 * - regular — indicates the message is billable.
+		 * - free_customer_service — indicates the message is free because it was either a utility template message or non-template message, sent within a [customer service window](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-messages#customer-service-windows).
+		 * - free_entry_point — indicates the message is free because it is part of a [free entry point](https://developers.facebook.com/docs/whatsapp/pricing#free-entry-point-conversations) conversation.
+		 */
+		type: 'regular' | 'free_customer_service' | 'free_entry_point';
 	};
 
 	/**
@@ -735,7 +761,7 @@ export type WebhookMessageObject = {
 		 */
 		customer: string;
 	};
-	
+
 	/**
 	 * When messages type is set to text, this object is included. Text objects have the following properties:
 	 * - body — String. The text of the message.
@@ -836,7 +862,7 @@ export type WebhookErrorObject = {
 		 * Describes the error.
 		 * 
 		 * Example: Message failed to send because there were too many messages sent from this phone number in a short period of time.
-		 */	
+		 */
 		details: string;
 	};
 };
