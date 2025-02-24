@@ -1,7 +1,7 @@
 {
   "name": "@adlanarifzr/whatsapp-sdk",
   "description": "Whatsapp Cloud API unofficial SDK",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "rm -rf ./dist && tsc",
