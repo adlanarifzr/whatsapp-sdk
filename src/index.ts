@@ -391,7 +391,12 @@ export default class WhatsappSdk {
 		}
 
 		const callingCode = +phoneNumber.countryCallingCode;
-		return pricing[callingCode][type];
+		const price = pricing.find(p => `${p.callingCode}` == `${callingCode}`)?.[type];
+		if(price == undefined) {
+			throw new Error('Invalid pricing');
+		}
+
+		return price;
 	}
 
 	/**
