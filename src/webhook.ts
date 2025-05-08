@@ -1,11 +1,16 @@
 import { TemplateLanguage } from './messageTemplate';
 
 /**
- * Documentation: {@link https://developers.facebook.com/docs/graph-api/webhooks/getting-started#event-notifications}.
+ * Documentation: 
+ * 
+ * {@link https://developers.facebook.com/docs/graph-api/webhooks/getting-started#event-notifications}
+ * {@link https://developers.facebook.com/docs/whatsapp/business-management-api/webhooks/components/#webhooks-components}.
  */
 export type WebhookPayloadObject = {
 	/**
-	 * The specific webhook a business is subscribed to. The webhook is whatsapp_business_account.
+	 * The specific webhook a business is subscribed to.
+	 * 
+	 * For [embedded signup](https://developers.facebook.com/docs/whatsapp/embedded-signup), this is always whatsapp_business_account.
 	 */
 	object: 'whatsapp_business_account' | string;
 
@@ -36,9 +41,25 @@ export type WebhookPayloadObject = {
 			/**
 			 * Notification type.
 			 */
-			field: 'messages' | 'message_template_status_update' | 'message_template_components_update';
+			field: 'account_alerts' 
+				| 'account_review_update'
+				| 'account_update'
+				| 'business_capability_update'
+				| 'message_template_quality_update'
+				| 'messages' 
+				| 'message_template_status_update' 
+				| 'message_template_components_update' 
+				| 'template_category_update' 
+				| 'phone_number_name_update'
+				| 'phone_number_quality_update'
+				| 'security'
+				| string;
 		}>;
 
+		/**
+		 * A UNIX timestamp indicating when the Event Notification was sent (not when the change that triggered the notification occurred).
+		 */
+		time: number;
 	}>;
 };
 
@@ -209,6 +230,20 @@ export type WebhookValueObject = {
 	 * Field: message_template_status_update
 	 */
 	reason?: 'INCORRECT_CATEGORY' | 'NONE' | string;
+
+	/**
+	 * Only applicable for message template webhook (category changed).
+	 * 
+	 * Field: message_template_status_update
+	 */
+	previous_category?: 'authentication' | 'marketing' | 'utility' | 'service' | 'referral_conversion';
+
+	/**
+	 * Only applicable for message template webhook (category changed).
+	 * 
+	 * Field: message_template_status_update
+	 */
+	new_category?: 'authentication' | 'marketing' | 'utility' | 'service' | 'referral_conversion';
 };
 
 /**
